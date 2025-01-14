@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CDP Chatbot</title>
+</head>
+<body>
+    <h1>CDP Chatbot</h1>
+    <form method="post">
+        <label for="query">Enter your question:</label><br>
+        <input type="text" id="query" name="query" required><br><br>
+        <label for="cdp_name">Filter by CDP (optional):</label><br>
+        <select id="cdp_name" name="cdp_name">
+            <option value="">All</option>
+            <option value="segment">Segment</option>
+            <option value="mparticle">mParticle</option>
+            <option value="lytics">Lytics</option>
+            <option value="zeotap">Zeotap</option>
+        </select><br><br>
+        <input type="submit" value="Ask">
+    </form>
+</body>
+</html>
